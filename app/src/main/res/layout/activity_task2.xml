@@ -1,0 +1,40 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <EditText
+        android:id="@+id/indexNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextbutton"
+        android:layout_above="@+id/getNumber"
+        android:layout_marginHorizontal="50dp"
+        android:hint="Enter Index Number"
+        android:paddingVertical="15dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/getNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button"
+        android:layout_marginHorizontal="120dp"
+        android:text="Get Number"
+        android:layout_marginBottom="100dp"
+        />
+    <TextView
+        android:id="@+id/dNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_above="@+id/indexNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:textSize="220dp"
+        />
+
+
+</RelativeLayout>

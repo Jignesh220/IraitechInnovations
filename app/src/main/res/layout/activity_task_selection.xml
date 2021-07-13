@@ -1,0 +1,40 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    >
+
+    <Button
+        android:id="@+id/task1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task 1"
+        android:background="@drawable/button"
+        android:layout_marginHorizontal="100dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="task1"
+        />
+    <Button
+        android:id="@+id/task2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task 2"
+        android:background="@drawable/button"
+        android:layout_below="@+id/task1"
+        android:layout_marginHorizontal="100dp"
+        android:onClick="task2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iraitech Innovations and Technologies"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:textColor="@color/white"
+        />
+
+
+</RelativeLayout>

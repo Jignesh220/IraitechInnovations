@@ -1,0 +1,31 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <EditText
+        android:id="@+id/lecturename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextbutton"
+        android:layout_above="@+id/getlecture"
+        android:layout_marginHorizontal="50dp"
+        android:hint="Enter lecture name"
+        android:paddingVertical="15dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+
+        />
+    <Button
+        android:id="@+id/getlecture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginHorizontal="120dp"
+        android:text="add"
+        android:layout_marginBottom="100dp"
+        android:layout_centerInParent="true"
+        />
+
+
+</RelativeLayout>
